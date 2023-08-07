@@ -1,6 +1,6 @@
 <!-- リリース用 -->
 <resources>
-    <string name="app_name">ロジスグラス 20230612.01</string>
+    <string name="app_name">ロジスグラスβ版 20230807.01</string>
     <!-- サンプルのBarcodesFromIntent用 -->
     <string name="scan_to_fill">読み込んだコード</string>
     <string name="fill_in_from_barcode">コード読み込み</string>
