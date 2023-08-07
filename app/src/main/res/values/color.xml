@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#99008577</color>
+    <color name="primaryLight">#22008577</color>
+    <color name="primaryDark">#ff008577</color>
+    <color name="primaryNormal">#ff888888</color>
+
+    <color name="text">#ffffffff</color>
+    <color name="background">#ffbbbbbb</color>
+
+    <color name="success">#ff0d6efd</color>
+    <color name="info">#ff0dcaf0</color>
+    <color name="warning">#ffffffe0</color>
+    <color name="error">#ffdc3545</color>
+    <color name="danger">#ffdc3545</color>
+    <color name="light">#fff8f9fa</color>
+    <color name="dark">#ff212529</color>
+</resources>

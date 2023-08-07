@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?><!-- デモ用のデータ ネットワーク利用不可の場合に使用 -->
+<resources>
+    <string name="demo_driver_delivery_plan">
+{
+    \"hdn_driverId\": \"1\",
+    \"hdn_startDate\": \"20230113\",
+    \"hdn_endDate\": \"20230113\",
+    \"driverName\": \"デモ利用者\",
+    \"userMenuData\": [
+        {
+            \"title\": \"倉庫\n入庫仕分け\",
+            \"activityName\": \"ScanBarcodeActivity\",
+            \"trigger\": \"バーコード\",
+            \"dataName\": \"enterSortData\"
+        },
+        {
+            \"title\": \"倉庫\n出庫ピッキング\",
+            \"activityName\": \"ScanBarcodeActivity\",
+            \"trigger\": \"リスト-バーコード\",
+            \"dataName\": \"leavePickingData\"
+        },
+        {
+            \"title\": \"配送\n荷積\",
+            \"activityName\": \"ScanBarcodeActivity\",
+            \"trigger\": \"リスト-バーコード\",
+            \"dataName\": \"deliveryLoadData\"
+        },
+        {
+            \"title\": \"ラストワンマイル\n荷下ろし\",
+            \"activityName\": \"ScanBarcodeActivity\",
+            \"trigger\": \"バーコード\",
+            \"dataName\": \"deliveryUnloadData\"
+        },
+        {
+            \"title\": \"\",
+            \"activityName\": \"\",
+            \"trigger\": \"\",
+            \"dataName\": \"\"
+        },
+        {
+            \"title\": \"\",
+            \"activityName\": \"\",
+            \"trigger\": \"\",
+            \"dataName\": \"\"
+        },
+        {
+            \"title\": \"置配\n録画\",
+            \"activityName\": \"VideoHWEncodingAsyncActivity\",
+            \"trigger\": \"クリック\",
+            \"dataName\": \"placementRecordData\"
+        },
+        {
+            \"title\": \"\",
+            \"activityName\": \"\",
+            \"trigger\": \"\",
+            \"dataName\": \"\"
+        },
+        {
+            \"title\": \"\",
+            \"activityName\": \"\",
+            \"trigger\": \"\",
+            \"dataName\": \"\"
+        }
+    ],
+    \"driverDeliveryPlan\": [
+        {
+            \"planDate\": \"2023/01/13\",
+            \"importKey\": \"DEMO_9412082010029\",
+            \"pickingCode\": \"9412082010029\",
+            \"sortPersonId\": 2,
+            \"driverId\": 1,
+            \"areaId\": 1,
+            \"areaName\": \"地区Ａ\",
+            \"itemId\": 1,
+            \"itemName\": \"品目Ａ\",
+            \"deleveryTime\": null
+        }
+    ],
+    \"deliveryPlanData\" : [
+        {
+            \"planDate\": \"2023/02/01\",
+            \"pickingCode\": \"1123017005000\",
+            \"pickingDisplayData\": \"大阪市内－栗山\"
+        },
+        {
+            \"planDate\": \"2023/02/01\",
+            \"pickingCode\": \"1122080025007\",
+            \"pickingDisplayData\": \"大阪市内－栗山\"
+        },
+        {
+            \"planDate\": \"2023/02/01\",
+            \"pickingCode\": \"1122110147006\",
+            \"pickingDisplayData\": \"大阪市内－栗山\"
+        },
+        {
+            \"planDate\": \"2023/02/01\",
+            \"pickingCode\": \"1123010223005\",
+            \"pickingDisplayData\": \"大阪市内－栗山\"
+        },
+        {
+            \"planDate\": \"2023/02/01\",
+            \"pickingCode\": \"1623010006009\",
+            \"pickingDisplayData\": \"大阪市内－栗山\"
+        },
+        {
+            \"planDate\": \"2023/02/01\",
+            \"pickingCode\": \"1122127017002\",
+            \"pickingDisplayData\": \"大阪市内－栗山\"
+        },
+        {
+            \"planDate\": \"2023/02/01\",
+            \"pickingCode\": \"1123010103000\",
+            \"pickingDisplayData\": \"東大阪市－岡田\"
+        },
+        {
+            \"planDate\": \"2023/02/01\",
+            \"pickingCode\": \"1123010234001\",
+            \"pickingDisplayData\": \"柏原市－鳥山\"
+        },
+        {
+            \"planDate\": \"2023/02/01\",
+            \"pickingCode\": \"1522120065008\",
+            \"pickingDisplayData\": \"和泉市－鳥山\"
+        },
+        {
+            \"planDate\": \"2023/02/01\",
+            \"pickingCode\": \"1422120035004\",
+            \"pickingDisplayData\": \"京都市－岡田\"
+        },
+        {
+            \"planDate\": \"2023/02/01\",
+            \"pickingCode\": \"1422100035000\",
+            \"pickingDisplayData\": \"長岡京市－岡田\"
+        },
+        {
+            \"planDate\": \"2023/02/01\",
+            \"pickingCode\": \"1122120258006\",
+            \"pickingDisplayData\": \"奈良県－鳥山\"
+        },
+        {
+            \"planDate\": \"2023/02/01\",
+            \"pickingCode\": \"1122090190009\",
+            \"pickingDisplayData\": \"神戸市－山下\"
+        },
+        {
+            \"planDate\": \"2023/02/01\",
+            \"pickingCode\": \"1122070106006\",
+            \"pickingDisplayData\": \"尼崎市－山下\"
+        },
+        {
+            \"planDate\": \"2023/02/01\",
+            \"pickingCode\": \"1522080034007\",
+            \"pickingDisplayData\": \"尼崎市－山下\"
+        },
+        {
+            \"planDate\": \"2023/02/01\",
+            \"pickingCode\": \"1122126003006\",
+            \"pickingDisplayData\": \"八尾市－岡田\"
+        }
+    ],
+    \"rackData\" : [
+        {
+            \"pickingCode\": \"1123017005000\",
+            \"pickingDisplayData\": \"A2－2－1122070106－仕切書３Ｐ（ＴＴＴＴＴＴ）\"
+        },
+        {
+            \"pickingCode\": \"1122080025007\",
+            \"pickingDisplayData\": \"A4－2－1122080025－請求明細書（ＤＤＤ）\"
+        },
+        {
+            \"pickingCode\": \"1122110147006\",
+            \"pickingDisplayData\": \"B1－1－1122090190－Ａ４　ＮＩＰ　ミシン１本　穴４ヶ\"
+        },
+        {
+            \"pickingCode\": \"1123010223005\",
+            \"pickingDisplayData\": \"A3－5－1122110147－加工明細書（タック）（ＥＥＥＥ）\"
+        },
+        {
+            \"pickingCode\": \"1623010006009\",
+            \"pickingDisplayData\": \"A1－1－1122120258－固定資産税・都市計画税納税通知書（口座分\"
+        },
+        {
+            \"pickingCode\": \"1122127017002\",
+            \"pickingDisplayData\": \"B2－1－1122127017－国民健康保険証　Ａ４\"
+        },
+        {
+            \"pickingCode\": \"1123010103000\",
+            \"pickingDisplayData\": \"A1－2－1123010103－文具統一伝票１Ｐ納品書（ＫＫＫ）\"
+        },
+        {
+            \"pickingCode\": \"1123010234001\",
+            \"pickingDisplayData\": \"B1－4－1123010223－ターンアラウンドⅡ型\"
+        },
+        {
+            \"pickingCode\": \"1522120065008\",
+            \"pickingDisplayData\": \"A1－3－1123010234－①軽自動車税　納税通知書兼領収証書テスト\"
+        },
+        {
+            \"pickingCode\": \"1422120035004\",
+            \"pickingDisplayData\": \"A5－3－1123017005－Ｈａｎｄａｉ　Ｍａｐ＋Ｎｕｍｂｅｒｓ\"
+        },
+        {
+            \"pickingCode\": \"1422100035000\",
+            \"pickingDisplayData\": \"B2－2－1422100035－給与支給明細書の作成\"
+        },
+        {
+            \"pickingCode\": \"1122120258006\",
+            \"pickingDisplayData\": \"A5－3－1422120035－Ｆ５０２　減免ハガキ　（他人２回目）\"
+        },
+        {
+            \"pickingCode\": \"1122090190009\",
+            \"pickingDisplayData\": \"B1－1－1522080034－黄エフ　ＨＢ－２２５\"
+        },
+        {
+            \"pickingCode\": \"1122070106006\",
+            \"pickingDisplayData\": \"B3－5－1522120065－検体検査依頼票\"
+        },
+        {
+            \"pickingCode\": \"1522080034007\",
+            \"pickingDisplayData\": \"B2－1－1623010006－請求書２Ｐ\"
+        }
+    ]
+}
+    </string>
+</resources>

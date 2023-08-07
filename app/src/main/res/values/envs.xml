@@ -1,0 +1,6 @@
+<!-- リリース用プログラム環境変数 -->
+<!-- [TECH] アクセス方法例 R.string.app_url ※stringに入るので注意 -->
+<resources>
+    <string name="app_url">https://koyu-service.com/app/logis-glass</string>
+    <bool name="is_use_mockup">false</bool>     <!-- ネットワーク利用可の場合も、センターへのリクエストなどモックアップを使用するかどうか -->
+</resources>

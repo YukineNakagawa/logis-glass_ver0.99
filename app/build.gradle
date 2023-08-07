@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "co.jp.koyu.arpicking.prototype"
+        minSdkVersion 23    // 23でないとダメ？ BY FUKEHARA
+        targetSdkVersion 23 // 23でないとダメ？ BY FUKEHARA
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    // ADD BY FUKEHARA 2023/01/11
+    // [TECH] build successfuly になっても symbol not found が引き続き出る場合は、.ideaフォルダを削除すること
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.14.1'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.14.1'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.14.1'
+    // ADD BY FUKEHARA 2023/02/09 Videoアップロード用 エラーになる場合は CleanProject RebuildProject
+    implementation 'com.squareup.okhttp3:okhttp:4.10.0'
+
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+    implementation 'com.vuzix:sdk-barcode:1.6'
+    implementation 'com.android.support:appcompat-v7:23.4.0'
+    implementation 'com.android.support:design:23.4.0'
+    implementation 'android.arch.navigation:navigation-fragment:1.0.0'
+    implementation 'android.arch.navigation:navigation-ui:1.0.0'
+}

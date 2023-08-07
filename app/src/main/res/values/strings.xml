@@ -1,0 +1,54 @@
+<!-- リリース用 -->
+<resources>
+    <string name="app_name">ロジスグラス 20230612.01</string>
+    <!-- サンプルのBarcodesFromIntent用 -->
+    <string name="scan_to_fill">読み込んだコード</string>
+    <string name="fill_in_from_barcode">コード読み込み</string>
+    <string name="scan_now">スキャン中です...</string>
+    <string name="only_on_mseries">Barcode SDK only runs on Vuzix M-Series</string>
+    <!-- サンプルのBarcodesFromIntent用  -->
+    <string name="grant_camera_permission">バーコード スキャナーを使用するには、カメラのアクセスを許可してから、もう一度お試しください。</string>
+    <string name="scanner_error_message">スキャナーが使えません!</string>
+    <string name="scan_instructions">キーとなるバーコードに合わせてください。</string>
+    <!-- ユーザーメニュー用 -->
+    <string name="user_menu_1">倉庫\n入庫仕分け</string>
+    <string name="user_menu_2">倉庫\n出庫ピッキング</string>
+    <string name="user_menu_3">配送\n荷積</string>
+    <string name="user_menu_4">ラストワンマイル\n荷下ろし</string>
+    <string name="user_menu_5"></string>
+    <string name="user_menu_6"></string>
+    <string name="user_menu_7">置配\n録画</string>
+    <string name="user_menu_8"></string>
+    <string name="user_menu_9"></string>
+
+    <string name="scan_barcode_activity_name">バーコードスキャン</string>
+    <string name="video_record_activity_name">録画</string>
+    <string name="video_record_start">録画開始</string>
+    <string name="video_record_stop">録画停止</string>
+    <string name="video_record_pause">録画中断</string>
+    <string name="scan_comp">決定</string>
+
+    <string name="snackbar_click">クリック</string>
+
+    <!-- デモ用 -->
+    <string name="demo_user_data_all_file_name">demo_user_data_all.txt</string>
+
+    <!-- ピッキングシステム用 -->
+    <string name="sort">仕分け</string>
+    <string name="enter_sort">入庫仕分</string>
+    <string name="collection_and_delivery">集配\n\n配達</string>
+    <string name="local_qr_login_button">QRログイン\n(ローカル)</string>
+    <string name="cloud_qr_login_button">QRログイン\n(クラウド)</string>
+    <string name="local_input_login_button">QRログイン\n(ローカル)</string>
+    <string name="cloud_input_login_button">QRログイン\n(クラウド)</string>
+    <string name="demo_const_login_button">デモ\nログイン\n(固定データ)</string>
+    <string name="demo_cloud_login_button">デモ\nログイン\n(クラウド)</string>
+    <string name="qr_login_button">QRコード\n\nログイン</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_test">TestActivity</string>
+
+    <string name="title_activity_video_hwencoding_async">VideoHWEncodingAsyncActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

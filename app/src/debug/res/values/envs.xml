@@ -1,0 +1,8 @@
+<!-- デバッグ用プログラム環境変数 -->
+<!-- [TECH] アクセス方法例 R.string.app_url ※stringに入るので注意 -->
+<resources>
+    <!-- <string name="app_url">http://10.0.2.2:8000</string> -->
+    <!-- Vuzix実機ではローカルサーバーへのテストはできないので注意！エミュレータでテストすること -->
+    <string name="app_url">https://koyu-service.com/app/logis-glass</string>
+    <bool name="is_use_mockup">true</bool>     <!-- ネットワーク利用可の場合も、センターへのリクエストなどモックアップを使用するかどうか -->
+</resources>
